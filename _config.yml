@@ -19,3 +19,4 @@ github_username:  damoye1993
 # Build settings
 markdown: kramdown
 permalink: /:title
+# future: true

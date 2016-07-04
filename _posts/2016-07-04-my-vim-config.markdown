@@ -1,28 +1,28 @@
 ---
 layout: post
-title:  "My Vim Config For Python And C++"
-date:   2016-07-04 18:42
+title:  "My Vim Config For C++ and Python"
+date:   2016-07-04 18:55:19 +0800
 categories: Vim
 ---
-Today I want to share my vim config. This config is for coding Python and C++.
+In my first blog, I want to share my vim config. This config is for coding Python and C++.
 My colleague was surprise when he saw my config file. It's short, simple and full-powered.
 
-{% highlight python %}
+{% highlight vimscript %}
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'Yggdroot/indentLine'                # Show indentation line
-Plugin 'airblade/vim-gitgutter'             # Show git modification
-Plugin 'altercation/vim-colors-solarized'   # Theme
-Plugin 'jistr/vim-nerdtree-tabs'            # Extension for plugin nerdtree
-Plugin 'kien/ctrlp.vim'                     # Jump among file
-Plugin 'raimondi/delimitmate'               # Automatic closing of quotes, parenthesis, brackets
-Plugin 'rking/ag.vim'                       # Search recursively
-Plugin 'scrooloose/nerdtree'                # File tree
-Plugin 'scrooloose/syntastic'               # Syntax checking
-Plugin 'tmhedberg/SimpylFold'               # Code folding
-Plugin 'tpope/vim-fugitive'                 # Git command
-Plugin 'Valloric/YouCompleteMe'             # Autocomplete
+Plugin 'Yggdroot/indentLine'                " Show indentation line
+Plugin 'airblade/vim-gitgutter'             " Show git modification
+Plugin 'altercation/vim-colors-solarized'   " Theme
+Plugin 'jistr/vim-nerdtree-tabs'            " Extension for plugin nerdtree
+Plugin 'kien/ctrlp.vim'                     " Jump among file
+Plugin 'raimondi/delimitmate'               " Automatic closing of quotes, parenthesis, brackets
+Plugin 'rking/ag.vim'                       " Search recursively
+Plugin 'scrooloose/nerdtree'                " File tree
+Plugin 'scrooloose/syntastic'               " Syntax checking
+Plugin 'tmhedberg/SimpylFold'               " Code folding
+Plugin 'tpope/vim-fugitive'                 " Git command
+Plugin 'Valloric/YouCompleteMe'             " Autocomplete
 call vundle#end()
 colorscheme solarized
 set background=dark
@@ -54,6 +54,6 @@ nnoremap <leader>g :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>d :YcmCompleter GoTo<CR>
 {% endhighlight %}
 
-I will keep updating my config. Welcome to star it: [VIM_MO]
+I will keep updating my config. Welcome to star it: [vim_mo](https://github.com/damoye1993/vim_mo).
 
-[vim_mo]: https://github.com/damoye1993/vim_mo
+Finaly, I love finding greate vim plugins from [VimAwesome](http://vimawesome.com/).
