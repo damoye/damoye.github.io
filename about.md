@@ -12,10 +12,10 @@ permalink: /about_me/
 
 #### Zhejiang University of Technology, Computer Science and Technology
 
-An Unix programmer, good at C++, C# and Python,
-also interested in front-end technology.
+I am good at C++, C# and Python, and interested in front-end technology.
 
-I build this blog to record the problems
-that I meet in my study and my work.
+I code with Vim in Unix.
 
-By th way, C++ is the best programming language in the world.
+I build this blog to collect important knowledge and record the problems that I meet.
+
+I love C++.
