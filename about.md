@@ -8,14 +8,14 @@ permalink: /about_me/
 
 # 叶大漠
 
-#### Shanghai, Software Enginner, ELEME Inc.
+#### Shanghai, Software Enginner.
 
 #### Zhejiang University of Technology, Computer Science and Technology
 
-I am good at C++, C# and Python, and interested in front-end technology.
+I am good at C++, C#, Python, Go and interested in front-end technology.
 
-I code with Vim in Unix.
+I code with Vim on Unix.
 
 I build this blog to collect important knowledge and record the problems that I meet.
 
-I love C++.
+I love Go.
