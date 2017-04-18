@@ -17,6 +17,7 @@ Plugin 'bling/vim-airline'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'ervandew/supertab'
 Plugin 'fatih/vim-go'
+Plugin 'majutsushi/tagbar'
 Plugin 'rking/ag.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'sirver/ultisnips'
@@ -46,6 +47,7 @@ nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>
 nmap <C-L> <C-W><C-L>
 nmap <C-N> :NERDTreeToggle<CR>
+nmap <F8> :Tagbar<CR>
 nmap <Leader>a :cclose<CR>
 nmap <Leader>m :cprevious<CR>
 nmap <Leader>n :cnext<CR>
@@ -57,7 +59,7 @@ nmap <Leader>i <Plug>(go-info)
 nmap <Leader>r <Plug>(go-run)
 nmap <Leader>s <Plug>(go-implements)
 nmap <Leader>t <Plug>(go-test)
-nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
+nmap <Leader>b :<C-u>call <SID>build_go_files()<CR>
 function! s:build_go_files()
   let l:file = expand('%')
   if l:file =~# '^\f\+_test\.go$'
