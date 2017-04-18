@@ -7,7 +7,7 @@ categories: Vim
 In my first blog, I want to share my vim config. This config is for coding Golang.
 It's short, simple but full-powered.
 
-```
+```vim
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'vundlevim/vundle.vim'
@@ -72,6 +72,6 @@ endfunction
 
 One important reason my config is short is [neovim](https://neovim.io/).
 
-I will keep updating my config. Welcome to star it: [vim_mo](https://github.com/damoye/vim_mo).
+I will keep updating my config. Welcome to star it: [vimo](https://github.com/damoye/vimo).
 
 Finaly, I love finding greate vim plugins from [VimAwesome](http://vimawesome.com/).
