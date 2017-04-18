@@ -69,6 +69,7 @@ function! s:build_go_files()
   endif
 endfunction
 ```
+![screenshot](https://github.com/damoye/vimo/blob/master/screenshot.png)
 
 One important reason my config is short is [neovim](https://neovim.io/).
 
