@@ -4,6 +4,7 @@ title:  "The Go Memory Model 中文翻译"
 date:   2017-05-22 16:00:00 +0800
 categories: Go
 ---
+原文：[The Go Memory Model](https://golang.org/ref/mem)
 # Go内存模型
 
 ## 版本：2014年5月31日
