@@ -8,13 +8,13 @@
 # Site settings
 title: Mo
 email: damoye1993@hotmail.com
-mobile: (+86) 1866-811-3723
+mobile: (+86) 171-9176-9174
 description: > # this means to ignore newlines until "baseurl:"
   Hello world. This is my blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: DamoYe
-github_username:  damoye1993
+github_username:  damoye
 
 # Build settings
 markdown: kramdown
